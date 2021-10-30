@@ -1,0 +1,2 @@
+docker run --name mongodb_dockerhub -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=secret -d mongo:latest
+docker exec -it mongodb_dockerhub mongo -u admin -p secret
